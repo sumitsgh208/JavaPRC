@@ -17,6 +17,8 @@ public class Feature03FunctionalInterfacesExample01 {
         // Apply the function
         String strResult = intToString.apply(123);
         System.out.println("Integer to String: " + strResult); // Output: Integer to String: 123
-    }
+    
+	
+	}
 
 }
