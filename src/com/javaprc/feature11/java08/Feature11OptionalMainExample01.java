@@ -3,26 +3,21 @@ package com.javaprc.feature11.java08;
 import java.util.Optional;
 
 public class Feature11OptionalMainExample01 {
-	public static void main(String[] args) { 
-		
-        String[] str = new String[10]; // Initialize an array of strings with default null values.  
-        str[5] = "Hello, Optional!"; // Uncomment this line to test with a non-null value.  
-        
-        
-     // Create an Optional object from the value of str[5].  
-        Optional<String> checkNull = Optional.ofNullable(str[5]);  
-		
-     // Check if the Optional object contains a value.  
-        if (checkNull.isPresent()) {  
-            // Convert the string to lowercase if it's not null.  
-            String word = str[5].toLowerCase();  
-            System.out.println(word); // Print the lowercase string.  
-        } else {  
-            System.out.println("string is null"); // Indicate that the string is null.  
-        }  
-		
-		
-		
+	public static void main(String[] args) {
+
+		String[] str = new String[10]; // Initialize an array of strings with default null values.
+		str[5] = "Hello, Optional!"; // Uncomment this line to test with a non-null value.
+
+		Optional<String> checkNull = Optional.ofNullable(str[5]);
+
+		if (checkNull.isPresent()) {
+
+			String word = str[5].toLowerCase();
+			System.out.println(word); // Print the lowercase string.
+		} else {
+			System.out.println("string is null"); // Indicate that the string is null.
+		}
+
 	}
 
 }
