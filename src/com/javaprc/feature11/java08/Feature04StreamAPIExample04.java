@@ -19,6 +19,7 @@ public class Feature04StreamAPIExample04 {
 	    
 	    
 	    
+	    String str=new String("Sumit Kumar Singh");
 	    
 	    
 	    
