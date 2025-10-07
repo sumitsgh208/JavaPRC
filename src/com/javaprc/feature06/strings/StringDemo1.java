@@ -10,6 +10,8 @@ public class StringDemo1 {
 		String str="tpoint";
 		String str1=new String(ch); 
 		String str2=new String(ch); 
+		String s3 = new String("Hello"); // A new string object is created in the heap 
+		String s4 = new String("Hello").intern(); // Ensures use of the string pool  
 		
 		//System.out.println(ch==s); // incompatible type
 		
@@ -36,9 +38,9 @@ public class StringDemo1 {
 			String s3 = new String("tpoint"); // Creates one object in the heap and may also create "tpoint" in the pool.
 
 		  
-		 s1 == s2 returns true (same reference)
-s1 == s3 returns false (different references)
-s1.equals(s3) returns true (same content) 
+		 	s1 == s2 returns true (same reference)
+			s1 == s3 returns false (different references)
+			s1.equals(s3) returns true (same content) 
 		 * 
 		 * 
 		 * 

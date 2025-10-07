@@ -14,7 +14,13 @@ public class Feature04StreamAPIExample04 {
 	    
 	    // Result: {a=[apple, apricot], b=[banana, berry], c=[cat]} 
 	    
-	    // 
+	    
+	    System.out.println("groupedByFirstLetter : "+groupedByFirstLetter);
+	    
+	    
+	    
+	    
+	    
 	    
 	}
 
